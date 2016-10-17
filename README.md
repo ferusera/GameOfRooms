@@ -11,4 +11,4 @@
 
 #Console.rb: es la consola del juego, la que pide al usuario un input y llama a quien haya que llamar para que el juego progrese. 
 
-#Main.rb: iniciativa el juego dando valor a los distintos objetos.
+#Main.rb: inicializa el juego dando valor a los distintos objetos.
