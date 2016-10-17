@@ -3,7 +3,7 @@
 
 require_relative 'RoomMazeClasses.rb'
 require_relative 'Console.rb'
-require_relative 'ObjectClasses.rb'
+require_relative 'ItemClasses.rb'
 
 maze = Maze.new
 forest = Room.new({"N" => false, "S" => false, "E" => 2, "W" => false}, \

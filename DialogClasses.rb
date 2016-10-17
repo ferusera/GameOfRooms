@@ -3,7 +3,7 @@
 #bien, sobre todo ItemActions
 
 require_relative 'RoomMazeClasses.rb'
-require_relative 'ObjectClasses.rb'
+require_relative 'ItemClasses.rb'
 
 module NextRoom
 	#Este módulo sí que funcion. Simplemente indica a qué habitación pasa el 

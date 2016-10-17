@@ -3,7 +3,7 @@
 require 'pry'
 require_relative 'RoomMazeClasses.rb'
 require_relative 'DialogClasses.rb'
-require_relative 'ObjectClasses.rb'
+require_relative 'ItemClasses.rb'
 
 class Console
 	include NextRoom
