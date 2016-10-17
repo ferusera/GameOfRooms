@@ -1,5 +1,6 @@
 #require 'pry'
 class Room
+	#define las características y funciones de los cuartos del laberinto
 	attr_reader :exits, :description, :id
 	def initialize exits, description, id
 		@exits = exits
@@ -27,6 +28,7 @@ class Room
 end
 
 class Maze
+	#crea el laberinto de habitaciones
 	def initialize
 		@rooms = []
 	end
@@ -44,7 +46,8 @@ class Maze
 	end
 end
 
-
+=begin
+#Esto, de momento, no se usa.
 class User
 	def initialize name
 		@name = name
@@ -53,4 +56,5 @@ class User
 	def position
 	end
 end
+=end
 

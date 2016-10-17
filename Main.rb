@@ -1,3 +1,6 @@
+#aquí es dónde doy valores a todos los objetos del juego (habitaciones,
+#items, laberinto, etc.)
+
 require_relative 'RoomMazeClasses.rb'
 require_relative 'Console.rb'
 require_relative 'ObjectClasses.rb'
